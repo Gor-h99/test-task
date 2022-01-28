@@ -1,0 +1,95 @@
+@import '~vue3-date-time-picker';
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.select-date {
+    width: 25%;
+}
+
+.now-status {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-date-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.choose-date-text {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.clock {
+    color: #f6ece0;
+    font-size: 60px;
+    letter-spacing: 7px;
+}
+
+.close-day {
+    color: white;
+    background: #a772438f;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+}
+
+.open-day {
+    color: white;
+    background: #4ff14f59;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+}
+
+p {
+    color: white;
+}
+
+.bg-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.status-board {
+    background: white;
+    width: 150px;
+    border: solid 0.5rem #4c4949;
+    display: block;
+    height: 150px;
+    box-shadow: inset 1px -1px 16px #bb9d77;
+
+    p {
+        color: #0e0c0d;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+}
+
+.error {
+    color: #cc0000;
+    font-weight:bold;
+    padding: 6px 0;
+    font-size: 14px;
+}
